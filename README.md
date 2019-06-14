@@ -1,0 +1,1 @@
+Node.js & npm exercise - the 'app' saves current folder content to content.txt file
