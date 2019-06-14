@@ -1,5 +1,5 @@
 'use strict';
-var fs = require('fs');  // paczka wyświetlajaca info o pliku
+var fs = require('fs');
 
 fs.readdir('./', function(err, files) {
     fs.writeFile('./content.txt', files, function(err) {
